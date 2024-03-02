@@ -1,0 +1,11 @@
+.schedule-svg .node {
+    fill: #A6A6A6;
+    transition: all 1s;
+}
+
+.schedule-svg .node:hover{
+    transform: scale(1.2);
+}
+.schedule-svg .node.active-node {
+    fill: #3B41C9
+}
