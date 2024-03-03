@@ -21,8 +21,8 @@ const items = [
       'Cơ sở 2 G301',
     when:
       'Thứ 3 hằng tuần (10 tuần) từ tiết 3-5',
-    imageLight: 'url("/static/images/templates/templates-images/dash-light.png")',
-    imageDark: 'url("/static/images/templates/templates-images/dash-dark.png")',
+      imageLight: 'url("/static/image/LT.jpg")',
+      imageDark: 'url("/static/image/LT.jpg")',
   },
   {
     icon: <EdgesensorHighRoundedIcon />,
@@ -31,8 +31,8 @@ const items = [
       'Cơ sở 2 PMT_NĐH4.5',
     when:
       'Thứ 5 hằng tuần (13 tuần) từ tiết 5-6, 7-8',
-    imageLight: 'url("/static/images/templates/templates-images/mobile-light.png")',
-    imageDark: 'url("/static/images/templates/templates-images/mobile-dark.png")',
+    imageLight: 'url("/static/image/c_th.jpeg")',
+    imageDark: 'url("/static/image/c_th.jpeg")',
   },
 ];
 
@@ -58,8 +58,10 @@ export default function Features() {
               color="text.secondary"
               sx={{ mb: { xs: 2, sm: 4 } }}
             >
-              Lớp lý thuyết: Thứ 3 hằng tuần (10 tuần) từ tiết 3-5 tại Cơ sở 2 G301
-              Lớp thực hành: Thứ 5 hằng tuần (13 tuần) từ tiết 5-6, 7-8 tại Cơ sở 2 PMT_NĐH4.5
+              Số tín chỉ: 3<br/>
+              Số tiết lý thuyết: 15<br/>
+              Số tiết thực hành: 30<br/>
+              Số tiết tự học: 60
             </Typography>
           </div>
           <Grid container item gap={1} sx={{ display: { xs: 'auto', sm: 'none' } }}>
@@ -105,7 +107,7 @@ export default function Features() {
                     : items[selectedItemIndex].imageDark,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
-                minHeight: 280,
+                minHeight: 200,
               }}
             />
             <Box sx={{ px: 2, pb: 2 }}>
@@ -220,8 +222,8 @@ export default function Features() {
               sx={{
                 m: 'auto',
                 width: 420,
-                height: 500,
-                backgroundSize: 'contain',
+                height: 400,
+                backgroundSize: 'cover',
                 backgroundImage: (theme) =>
                   theme.palette.mode === 'light'
                     ? items[selectedItemIndex].imageLight

@@ -56,8 +56,8 @@ export default function Hero() {
             </Typography>
           </Typography>
           <Typography variant="body1" textAlign="center" color="text.secondary">
-            PET10006 - Giới thiệu về lập trình hướng đối tượng và lập trình C++ <br />
-            Giảng viên: Ths. Nguyễn Vương Thùy Ngân
+            PET10006 - Giới thiệu về lập trình hướng đối tượng và lập trình C++ <br /> <br/>
+            Nội dung bao gồm các kiến thức về lập trình hướng đối tượng như: khái niệm về lập trình hướng đối tượng, ngôn ngữ lập trình hướng đối tượng. Môn học cung cấp các kiến thức về đối tượng và lớp, toán tử trên lớp, kỹ thuật kế thừa, khuôn hình, các kênh nhập xuất, xử lý lỗi.
           </Typography>
         </Stack>
         <Schedule activeStep={1}/>
