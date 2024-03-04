@@ -3,6 +3,7 @@
   "version": "5.0.0",
   "private": true,
   "dependencies": {
+    "@azure/msal-react": "^2.0.12",
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
     "@mui/icons-material": "^5.15.11",
@@ -21,6 +22,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

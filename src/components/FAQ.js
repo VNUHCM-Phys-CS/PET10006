@@ -38,7 +38,7 @@ export default function FAQ() {
           textAlign: { sm: 'left', md: 'center' },
         }}
       >
-        Frequently asked questions
+        Câu hỏi thường gặp
       </Typography>
       <Box sx={{ width: '100%' }}>
         <Accordion
@@ -51,7 +51,7 @@ export default function FAQ() {
             id="panel1d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              How do I contact customer support if I have a question or issue?
+              Làm sao để em liên hệ giáo viên hướng dẫn?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -60,10 +60,9 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              You can reach our customer support team by emailing
-              <Link> support@email.com </Link>
-              or calling our toll-free number. We&apos;re here to assist you
-              promptly.
+              Nếu có thắc mắc về bài giảng, em có thể hỏi trực tiếp trên lớp hoặc gửi email về
+              <Link> nvtngan@hcmus.edu.vn </Link>
+              hoặc liên hệ qua Microsoft Team của môn học.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -77,7 +76,7 @@ export default function FAQ() {
             id="panel2d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              Can I return the product if it doesn&apos;t meet my expectations?
+              Em có thể thắc mắc về điểm số hay không?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -86,9 +85,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Absolutely! We offer a hassle-free return policy. If you&apos;re not
-              completely satisfied, you can return the product within [number of
-              days] days for a full refund or exchange.
+              Tất nhiên! Nếu em có nhu cầu biết chi tiết điểm số. Em có thể đặt lịch trước để hỏi.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -102,7 +99,7 @@ export default function FAQ() {
             id="panel3d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              What makes your product stand out from others in the market?
+              Em có thể không đến lớp không?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -111,9 +108,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Our product distinguishes itself through its adaptability, durability,
-              and innovative features. We prioritize user satisfaction and
-              continually strive to exceed expectations in every aspect.
+              Không nha em. Vắng quá 3 buổi mà không có xin phép được xem như không qua được môn. Vắng thi cũng tương tự.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -127,7 +122,7 @@ export default function FAQ() {
             id="panel4d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              Is there a warranty on the product, and what does it cover?
+              Em không muốn hiển thị MSSV của em trên biểu đồ điểm của lớp?!
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -136,10 +131,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Yes, our product comes with a [length of warranty] warranty. It covers
-              defects in materials and workmanship. If you encounter any issues
-              covered by the warranty, please contact our customer support for
-              assistance.
+              Không sao cả. Em hãy liên hệ Cô để ẩn MSSV của em trên biểu đồ điểm.
             </Typography>
           </AccordionDetails>
         </Accordion>

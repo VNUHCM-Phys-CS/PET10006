@@ -14,47 +14,29 @@ import ThumbUpAltRoundedIcon from '@mui/icons-material/ThumbUpAltRounded';
 
 const items = [
   {
-    icon: <SettingsSuggestRoundedIcon />,
-    title: 'Adaptable performance',
-    description:
-      'Our product effortlessly adjusts to your needs, boosting efficiency and simplifying your tasks.',
-  },
-  {
-    icon: <ConstructionRoundedIcon />,
-    title: 'Built to last',
-    description:
-      'Experience unmatched durability that goes above and beyond with lasting investment.',
-  },
-  {
-    icon: <ThumbUpAltRoundedIcon />,
-    title: 'Great user experience',
-    description:
-      'Integrate our product into your routine with an intuitive and easy-to-use interface.',
-  },
-  {
-    icon: <AutoFixHighRoundedIcon />,
-    title: 'Innovative functionality',
-    description:
-      'Stay ahead with features that set new standards, addressing your evolving needs better than the rest.',
-  },
-  {
     icon: <SupportAgentRoundedIcon />,
-    title: 'Reliable support',
+    title: 'Bài tập về nhà (20%)',
     description:
-      'Count on our responsive customer support, offering assistance that goes beyond the purchase.',
+      '4 BTVN',
   },
   {
     icon: <QueryStatsRoundedIcon />,
-    title: 'Precision in every detail',
+    title: 'Đồ án môn học (30%)',
     description:
-      'Enjoy a meticulously crafted product where small touches make a significant impact on your overall experience.',
+      'Nhóm 3 người. Đọc hiểu project có sẵn và triển khai theo yêu cầu.',
   },
+  {
+    icon: <SettingsSuggestRoundedIcon />,
+    title: 'Thi cuối kì (50%)',
+    description:
+      'Thi trên máy.',
+  }
 ];
 
 export default function Highlights() {
   return (
     <Box
-      id="highlights"
+      id="breakdown"
       sx={{
         pt: { xs: 4, sm: 12 },
         pb: { xs: 8, sm: 16 },
@@ -78,12 +60,10 @@ export default function Highlights() {
           }}
         >
           <Typography component="h2" variant="h4">
-            Highlights
+            Thành phần điểm
           </Typography>
           <Typography variant="body1" sx={{ color: 'grey.400' }}>
-            Explore why our product stands out: adaptability, durability,
-            user-friendly design, and innovation. Enjoy reliable customer support and
-            precision in every detail.
+           Để hoàn thành môn học, sinh viên được đánh giá theo các thang điểm cụ thể.
           </Typography>
         </Box>
         <Grid container spacing={2.5}>
