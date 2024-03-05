@@ -50,7 +50,7 @@ export default function Schedule ({activeStep}){
             <g transform="translate(5800,2285)">
                 <circle r="380" fill-rule="evenodd" className={`node ${activeStep>=7&&"active-node"}`}/>
             </g>
-            <g transform="translate(4800,2285)">
+            <g transform="translate(4340,2960)">
                 <circle r="300" fill-rule="evenodd" className={`node ${activeStep>=8&&"active-node"}`}/>
             </g>
             <g transform='translate(2780,3070)'>

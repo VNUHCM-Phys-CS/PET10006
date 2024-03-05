@@ -21,8 +21,8 @@ const items = [
       'Cơ sở 2 G301',
     when:
       'Thứ 3 hằng tuần (10 tuần) từ tiết 3-5',
-      imageLight: 'url("/static/image/LT.jpg")',
-      imageDark: 'url("/static/image/LT.jpg")',
+      imageLight: 'url("static/image/LT.jpg")',
+      imageDark: 'url("static/image/LT.jpg")',
   },
   {
     icon: <EdgesensorHighRoundedIcon />,
@@ -31,8 +31,8 @@ const items = [
       'Cơ sở 2 PMT_NĐH4.5',
     when:
       'Thứ 5 hằng tuần (13 tuần) từ tiết 5-6, 7-8',
-    imageLight: 'url("/static/image/c_th.jpeg")',
-    imageDark: 'url("/static/image/c_th.jpeg")',
+    imageLight: 'url("static/image/c_th.jpeg")',
+    imageDark: 'url("static/image/c_th.jpeg")',
   },
 ];
 
