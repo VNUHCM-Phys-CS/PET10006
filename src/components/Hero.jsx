@@ -60,7 +60,7 @@ export default function Hero() {
             Nội dung bao gồm các kiến thức về lập trình hướng đối tượng như: khái niệm về lập trình hướng đối tượng, ngôn ngữ lập trình hướng đối tượng. Môn học cung cấp các kiến thức về đối tượng và lớp, toán tử trên lớp, kỹ thuật kế thừa, khuôn hình, các kênh nhập xuất, xử lý lỗi.
           </Typography>
         </Stack>
-        <Schedule activeStep={1}/>
+        <Schedule activeStep={7}/>
       </Container>
     </Box>
   );
