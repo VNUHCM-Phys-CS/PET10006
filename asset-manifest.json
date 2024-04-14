@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.7d7366c4.css",
-    "main.js": "./static/js/main.1024ed8f.js",
+    "main.js": "./static/js/main.24262a31.js",
     "static/media/vi_phys.png": "./static/media/vi_phys.177bb6939c027867b468.png",
     "index.html": "./index.html",
     "main.7d7366c4.css.map": "./static/css/main.7d7366c4.css.map",
-    "main.1024ed8f.js.map": "./static/js/main.1024ed8f.js.map"
+    "main.24262a31.js.map": "./static/js/main.24262a31.js.map"
   },
   "entrypoints": [
     "static/css/main.7d7366c4.css",
-    "static/js/main.1024ed8f.js"
+    "static/js/main.24262a31.js"
   ]
 }
